@@ -5,14 +5,6 @@
 class FlippingTheMatrix : public ITestable
 {
 private:
-	enum class Director
-	{
-		RowLeft,
-		RowRight,
-		ColumnDown,
-		ColumnUp
-	};
-
 	static int flippingMatrix(std::vector<std::vector<int>> matrix)
 	{
 		int columnCount = static_cast<int>(matrix.size());
