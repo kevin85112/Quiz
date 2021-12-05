@@ -6,12 +6,14 @@
 
 #include "TestEngine.hpp"
 #include "FlippingTheMatrix.hpp"
+#include "QueriesOnNumberOfPointsInsideACircle.hpp"
 
 int main()
 {
 	std::vector<std::shared_ptr<ITestable>> testList
 	{
-		std::make_shared<FlippingTheMatrix>()
+		std::make_shared<FlippingTheMatrix>(),
+		std::make_shared<QueriesOnNumberOfPointsInsideACircle>(),
 	};
 
 	std::cout << "---- Start ----" << std::endl;

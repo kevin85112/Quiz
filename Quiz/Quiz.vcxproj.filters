@@ -26,5 +26,8 @@
     <ClInclude Include="TestEngine.hpp">
       <Filter>來源檔案</Filter>
     </ClInclude>
+    <ClInclude Include="QueriesOnNumberOfPointsInsideACircle.hpp">
+      <Filter>來源檔案</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
