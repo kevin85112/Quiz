@@ -5,9 +5,9 @@
 #include <memory>
 
 #include "TestEngine.hpp"
-#include "FlippingTheMatrix.hpp"
-#include "QueriesOnNumberOfPointsInsideACircle.hpp"
-#include "TrappingRainWater.hpp"
+#include "FlippingTheMatrix/FlippingTheMatrix.hpp"
+#include "QueriesOnNumberOfPointsInsideACircle/QueriesOnNumberOfPointsInsideACircle.hpp"
+#include "TrappingRainWater/TrappingRainWater.hpp"
 
 int main()
 {
