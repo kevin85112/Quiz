@@ -7,6 +7,7 @@
 #include "TestEngine.hpp"
 #include "FlippingTheMatrix.hpp"
 #include "QueriesOnNumberOfPointsInsideACircle.hpp"
+#include "TrappingRainWater.hpp"
 
 int main()
 {
@@ -14,6 +15,7 @@ int main()
 	{
 		std::make_shared<FlippingTheMatrix>(),
 		std::make_shared<QueriesOnNumberOfPointsInsideACircle>(),
+		std::make_shared<TrappingRainWater>(),
 	};
 
 	std::cout << "---- Start ----" << std::endl;

@@ -145,6 +145,7 @@
     <ClInclude Include="FlippingTheMatrix.hpp" />
     <ClInclude Include="QueriesOnNumberOfPointsInsideACircle.hpp" />
     <ClInclude Include="TestEngine.hpp" />
+    <ClInclude Include="TrappingRainWater.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
