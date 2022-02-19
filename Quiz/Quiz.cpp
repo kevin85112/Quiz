@@ -9,6 +9,7 @@
 #include "QueriesOnNumberOfPointsInsideACircle/QueriesOnNumberOfPointsInsideACircle.hpp"
 #include "TrappingRainWater/TrappingRainWater.hpp"
 #include "IntervalListIntersections/IntervalListIntersections.hpp"
+#include "LRUCache/LRUCache.hpp"
 
 int main()
 {
@@ -17,7 +18,8 @@ int main()
 		std::make_shared<FlippingTheMatrix>(),
 		std::make_shared<QueriesOnNumberOfPointsInsideACircle>(),
 		std::make_shared<TrappingRainWater>(),
-		std::make_shared<IntervalListIntersections>()
+		std::make_shared<IntervalListIntersections>(),
+		std::make_shared<LRUCache>(),
 	};
 
 	std::cout << "---- Start ----" << std::endl;

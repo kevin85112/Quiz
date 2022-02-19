@@ -152,6 +152,7 @@
   <ItemGroup>
     <ClInclude Include="FlippingTheMatrix\FlippingTheMatrix.hpp" />
     <ClInclude Include="IntervalListIntersections\IntervalListIntersections.hpp" />
+    <ClInclude Include="LRUCache\LRUCache.hpp" />
     <ClInclude Include="QueriesOnNumberOfPointsInsideACircle\QueriesOnNumberOfPointsInsideACircle.hpp" />
     <ClInclude Include="TestEngine.hpp" />
     <ClInclude Include="TrappingRainWater\TrappingRainWater.hpp" />

@@ -38,5 +38,8 @@
     <ClInclude Include="IntervalListIntersections\IntervalListIntersections.hpp">
       <Filter>來源檔案\core</Filter>
     </ClInclude>
+    <ClInclude Include="LRUCache\LRUCache.hpp">
+      <Filter>來源檔案\core</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
