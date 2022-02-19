@@ -8,6 +8,7 @@
 #include "FlippingTheMatrix/FlippingTheMatrix.hpp"
 #include "QueriesOnNumberOfPointsInsideACircle/QueriesOnNumberOfPointsInsideACircle.hpp"
 #include "TrappingRainWater/TrappingRainWater.hpp"
+#include "IntervalListIntersections/IntervalListIntersections.hpp"
 
 int main()
 {
@@ -16,6 +17,7 @@ int main()
 		std::make_shared<FlippingTheMatrix>(),
 		std::make_shared<QueriesOnNumberOfPointsInsideACircle>(),
 		std::make_shared<TrappingRainWater>(),
+		std::make_shared<IntervalListIntersections>()
 	};
 
 	std::cout << "---- Start ----" << std::endl;
@@ -25,11 +27,11 @@ int main()
 		std::cout << "\n---- Test " << index << " \"" << test.GetName() << "\" ----" << std::endl;
 		std::string errorMessage;
 		bool isSuccess = test.Test(&errorMessage);
-		std::cout << "Result: " << (isSuccess ? "True" : "False") << std::endl;
 		if (!errorMessage.empty())
 		{
 			std::cout << "Error message:\n{\n" << errorMessage << "}" << std::endl;
 		}
+		std::cout << "\nResult: " << (isSuccess ? "True" : "False") << std::endl;
 		std::cout << "---- End test " << index << " \"" << test.GetName() << "\" ----" << std::endl;
 	}
 	std::cout << "\n---- End ----" << std::endl;

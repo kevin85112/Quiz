@@ -35,5 +35,8 @@
     <ClInclude Include="TrappingRainWater\TrappingRainWater.hpp">
       <Filter>來源檔案\core</Filter>
     </ClInclude>
+    <ClInclude Include="IntervalListIntersections\IntervalListIntersections.hpp">
+      <Filter>來源檔案\core</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
