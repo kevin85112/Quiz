@@ -119,10 +119,21 @@ public:
 	template <class T>
 	static std::string GetVectorString(const std::vector<T>& vector)
 	{
+		std::vector<std::string> vs;
+		vs.resize(vector.size());
+		for (size_t i = 0; i < vector.size(); i++)
+		{
+			vs[i] = std::to_string(vector[i]);
+		}
+		return GetVectorString(vs);
+	};
+	template <>
+	static std::string GetVectorString(const std::vector<std::string>& vector)
+	{
 		std::stringstream stream;
 		for (size_t i = 0; i < vector.size(); i++)
 		{
-			stream << std::to_string(vector[i]);
+			stream << vector[i];
 			if (i + 1 != vector.size())
 			{
 				stream << ", ";
