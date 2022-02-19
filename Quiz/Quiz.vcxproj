@@ -150,6 +150,7 @@
     <ClCompile Include="Quiz.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="CourseSchedule\CourseSchedule.hpp" />
     <ClInclude Include="FlippingTheMatrix\FlippingTheMatrix.hpp" />
     <ClInclude Include="IntervalListIntersections\IntervalListIntersections.hpp" />
     <ClInclude Include="LRUCache\LRUCache.hpp" />

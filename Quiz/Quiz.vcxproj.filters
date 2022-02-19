@@ -41,5 +41,8 @@
     <ClInclude Include="LRUCache\LRUCache.hpp">
       <Filter>來源檔案\core</Filter>
     </ClInclude>
+    <ClInclude Include="CourseSchedule\CourseSchedule.hpp">
+      <Filter>來源檔案\core</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

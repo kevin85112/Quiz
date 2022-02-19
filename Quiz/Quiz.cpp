@@ -10,6 +10,7 @@
 #include "TrappingRainWater/TrappingRainWater.hpp"
 #include "IntervalListIntersections/IntervalListIntersections.hpp"
 #include "LRUCache/LRUCache.hpp"
+#include "CourseSchedule/CourseSchedule.hpp"
 
 int main()
 {
@@ -20,6 +21,7 @@ int main()
 		std::make_shared<TrappingRainWater>(),
 		std::make_shared<IntervalListIntersections>(),
 		std::make_shared<LRUCache>(),
+		std::make_shared<CourseSchedule>(),
 	};
 
 	std::cout << "---- Start ----" << std::endl;
