@@ -7,3 +7,4 @@
 - [Trapping Rain Water](https://github.com/kevin85112/Quiz/tree/master/Quiz/TrappingRainWater) ([source](https://leetcode.com/problems/trapping-rain-water/))
 - [Interval List Intersections](https://github.com/kevin85112/Quiz/tree/master/Quiz/IntervalListIntersections) ([source](https://leetcode.com/problems/interval-list-intersections/))
 - [LRU Cache](https://github.com/kevin85112/Quiz/tree/master/Quiz/LRUCache) ([source](https://leetcode.com/problems/lru-cache/))
+- [Course Schedule](https://github.com/kevin85112/Quiz/tree/master/Quiz/CourseSchedule) ([source](https://leetcode.com/problems/course-schedule/))
