@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="來源檔案\core">
+      <UniqueIdentifier>{f72d4e59-20ca-43c3-bf3c-fca58b0eaa10}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Quiz.cpp">
@@ -20,17 +23,17 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="FlippingTheMatrix.hpp">
-      <Filter>來源檔案</Filter>
-    </ClInclude>
     <ClInclude Include="TestEngine.hpp">
       <Filter>來源檔案</Filter>
     </ClInclude>
-    <ClInclude Include="QueriesOnNumberOfPointsInsideACircle.hpp">
-      <Filter>來源檔案</Filter>
+    <ClInclude Include="FlippingTheMatrix\FlippingTheMatrix.hpp">
+      <Filter>來源檔案\core</Filter>
     </ClInclude>
-    <ClInclude Include="TrappingRainWater.hpp">
-      <Filter>來源檔案</Filter>
+    <ClInclude Include="QueriesOnNumberOfPointsInsideACircle\QueriesOnNumberOfPointsInsideACircle.hpp">
+      <Filter>來源檔案\core</Filter>
+    </ClInclude>
+    <ClInclude Include="TrappingRainWater\TrappingRainWater.hpp">
+      <Filter>來源檔案\core</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

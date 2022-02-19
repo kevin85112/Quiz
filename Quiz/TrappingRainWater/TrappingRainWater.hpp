@@ -12,12 +12,12 @@ private:
 	{
 		int result = 0;
 		std::vector<int> heightHistoryTable;
-		for (int step = 0; step < height.size(); step++)
+		for (int step = 0; step < static_cast<int>(height.size()); step++)
 		{
 			int currentHeight = height[step];
 			if (currentHeight != 0)
 			{
-				if (currentHeight > heightHistoryTable.size())
+				if (currentHeight > static_cast<int>(heightHistoryTable.size()))
 				{
 					heightHistoryTable.resize(currentHeight, -1);
 				}
@@ -41,7 +41,7 @@ private:
 		std::list<int> leftmostList;
 		std::list<int> rightmostList;
 		int elevationArea = 0;
-		for (int i = 0; i < height.size(); i++)
+		for (int i = 0; i < static_cast<int>(height.size()); i++)
 		{
 			int currentHeight = height[i];
 			if (currentHeight <= 0)
@@ -49,7 +49,7 @@ private:
 				continue;
 			}
 
-			while (currentHeight > leftmostList.size())
+			while (currentHeight > static_cast<int>(leftmostList.size()))
 			{
 				leftmostList.push_back(i);
 				rightmostList.push_back(i);
@@ -83,7 +83,7 @@ private:
 		int maxHeight = 0;
 		int maxHeightIndex = 0;
 		int elevationValue = 0;
-		for (int i = 0; i < height.size(); i++)
+		for (int i = 0; i < static_cast<int>(height.size()); i++)
 		{
 			int currentHeight = height[i];
 			if (currentHeight > maxHeight)
@@ -148,7 +148,7 @@ private:
 
 		int ans = 0, current = 0;
 		stack<int> st;
-		while (current < height.size()) {
+		while (current < static_cast<int>(height.size())) {
 			while (!st.empty() && height[current] > height[st.top()]) {
 				int top = st.top();
 				st.pop();
