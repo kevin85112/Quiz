@@ -5,3 +5,4 @@
 - [Flipping the Matrix](https://github.com/kevin85112/Quiz/tree/master/Quiz/FlippingTheMatrix) ([source](https://www.hackerrank.com/challenges/flipping-the-matrix/problem))
 - [Queries on Number of Points Inside a Circle](https://github.com/kevin85112/Quiz/tree/master/Quiz/QueriesOnNumberOfPointsInsideACircle) ([source](https://leetcode.com/problems/queries-on-number-of-points-inside-a-circle/))
 - [Trapping Rain Water](https://github.com/kevin85112/Quiz/tree/master/Quiz/TrappingRainWater) ([source](https://leetcode.com/problems/trapping-rain-water/))
+- [Interval List Intersections](https://github.com/kevin85112/Quiz/tree/master/Quiz/IntervalListIntersections) ([source](https://leetcode.com/problems/interval-list-intersections/))
