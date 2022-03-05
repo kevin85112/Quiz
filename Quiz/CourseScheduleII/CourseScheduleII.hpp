@@ -59,7 +59,7 @@ private:
 public:
 	std::string GetName() const
 	{
-		return "CourseSchedule";
+		return "CourseScheduleII";
 	}
 
 	bool Test(std::string* pErrorMessage = nullptr)
