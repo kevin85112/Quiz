@@ -29,25 +29,25 @@
     <ClInclude Include="FlippingTheMatrix\FlippingTheMatrix.hpp">
       <Filter>來源檔案\core</Filter>
     </ClInclude>
-    <ClInclude Include="QueriesOnNumberOfPointsInsideACircle\QueriesOnNumberOfPointsInsideACircle.hpp">
+    <ClInclude Include="L0042 - TrappingRainWater\TrappingRainWater.hpp">
       <Filter>來源檔案\core</Filter>
     </ClInclude>
-    <ClInclude Include="TrappingRainWater\TrappingRainWater.hpp">
+    <ClInclude Include="L0207 - CourseSchedule\CourseSchedule.hpp">
       <Filter>來源檔案\core</Filter>
     </ClInclude>
-    <ClInclude Include="IntervalListIntersections\IntervalListIntersections.hpp">
+    <ClInclude Include="L0210 - CourseScheduleII\CourseScheduleII.hpp">
       <Filter>來源檔案\core</Filter>
     </ClInclude>
-    <ClInclude Include="LRUCache\LRUCache.hpp">
+    <ClInclude Include="L0986 - IntervalListIntersections\IntervalListIntersections.hpp">
       <Filter>來源檔案\core</Filter>
     </ClInclude>
-    <ClInclude Include="CourseSchedule\CourseSchedule.hpp">
+    <ClInclude Include="L0146 - LRUCache\LRUCache.hpp">
       <Filter>來源檔案\core</Filter>
     </ClInclude>
-    <ClInclude Include="CourseScheduleII\CourseScheduleII.hpp">
+    <ClInclude Include="L0056 - MergeIntervals\MergeIntervals.hpp">
       <Filter>來源檔案\core</Filter>
     </ClInclude>
-    <ClInclude Include="MergeIntervals\MergeIntervals.hpp">
+    <ClInclude Include="L1828 - QueriesOnNumberOfPointsInsideACircle\QueriesOnNumberOfPointsInsideACircle.hpp">
       <Filter>來源檔案\core</Filter>
     </ClInclude>
   </ItemGroup>

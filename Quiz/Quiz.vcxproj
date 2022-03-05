@@ -150,15 +150,15 @@
     <ClCompile Include="Quiz.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="CourseScheduleII\CourseScheduleII.hpp" />
-    <ClInclude Include="CourseSchedule\CourseSchedule.hpp" />
     <ClInclude Include="FlippingTheMatrix\FlippingTheMatrix.hpp" />
-    <ClInclude Include="IntervalListIntersections\IntervalListIntersections.hpp" />
-    <ClInclude Include="LRUCache\LRUCache.hpp" />
-    <ClInclude Include="MergeIntervals\MergeIntervals.hpp" />
-    <ClInclude Include="QueriesOnNumberOfPointsInsideACircle\QueriesOnNumberOfPointsInsideACircle.hpp" />
+    <ClInclude Include="L0042 - TrappingRainWater\TrappingRainWater.hpp" />
+    <ClInclude Include="L0056 - MergeIntervals\MergeIntervals.hpp" />
+    <ClInclude Include="L0146 - LRUCache\LRUCache.hpp" />
+    <ClInclude Include="L0207 - CourseSchedule\CourseSchedule.hpp" />
+    <ClInclude Include="L0210 - CourseScheduleII\CourseScheduleII.hpp" />
+    <ClInclude Include="L0986 - IntervalListIntersections\IntervalListIntersections.hpp" />
+    <ClInclude Include="L1828 - QueriesOnNumberOfPointsInsideACircle\QueriesOnNumberOfPointsInsideACircle.hpp" />
     <ClInclude Include="TestEngine.hpp" />
-    <ClInclude Include="TrappingRainWater\TrappingRainWater.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
