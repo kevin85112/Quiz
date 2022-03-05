@@ -7,7 +7,7 @@
 ## LeetCode
 
 - [42 - Trapping Rain Water](https://github.com/kevin85112/Quiz/tree/master/Quiz/TrappingRainWater)
-- [56 - Merge Intervals](https://github.com/kevin85112/Quiz/tree/master/Quiz/MergeIntervals) ([source](https://leetcode.com/problems/merge-intervals/))
+- [56 - Merge Intervals](https://github.com/kevin85112/Quiz/tree/master/Quiz/MergeIntervals)
 - [146 - LRU Cache](https://github.com/kevin85112/Quiz/tree/master/Quiz/LRUCache)
 - [207 - Course Schedule](https://github.com/kevin85112/Quiz/tree/master/Quiz/CourseSchedule)
 - [210 - Course Schedule II](https://github.com/kevin85112/Quiz/tree/master/Quiz/CourseScheduleII)
