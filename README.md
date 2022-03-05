@@ -9,3 +9,4 @@
 - [LRU Cache](https://github.com/kevin85112/Quiz/tree/master/Quiz/LRUCache) ([source](https://leetcode.com/problems/lru-cache/))
 - [Course Schedule](https://github.com/kevin85112/Quiz/tree/master/Quiz/CourseSchedule) ([source](https://leetcode.com/problems/course-schedule/))
 - [Course Schedule II](https://github.com/kevin85112/Quiz/tree/master/Quiz/CourseScheduleII) ([source](https://leetcode.com/problems/course-schedule-ii/))
+- [Merge Intervals](https://github.com/kevin85112/Quiz/tree/master/Quiz/MergeIntervals) ([source](https://leetcode.com/problems/merge-intervals/))
