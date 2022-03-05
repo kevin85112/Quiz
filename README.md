@@ -6,10 +6,10 @@
 
 ## LeetCode
 
-- [42 - Trapping Rain Water](https://github.com/kevin85112/Quiz/tree/master/Quiz/TrappingRainWater)
-- [56 - Merge Intervals](https://github.com/kevin85112/Quiz/tree/master/Quiz/MergeIntervals)
-- [146 - LRU Cache](https://github.com/kevin85112/Quiz/tree/master/Quiz/LRUCache)
-- [207 - Course Schedule](https://github.com/kevin85112/Quiz/tree/master/Quiz/CourseSchedule)
-- [210 - Course Schedule II](https://github.com/kevin85112/Quiz/tree/master/Quiz/CourseScheduleII)
-- [986 - Interval List Intersections](https://github.com/kevin85112/Quiz/tree/master/Quiz/IntervalListIntersections)
-- [1828 - Queries on Number of Points Inside a Circle](https://github.com/kevin85112/Quiz/tree/master/Quiz/QueriesOnNumberOfPointsInsideACircle)
+- [L0042 - Trapping Rain Water](https://github.com/kevin85112/Quiz/tree/master/Quiz/L0042%20-%20TrappingRainWater)
+- [L0056 - Merge Intervals](https://github.com/kevin85112/Quiz/tree/master/Quiz/L0056%20-%20MergeIntervals)
+- [L0146 - LRU Cache](https://github.com/kevin85112/Quiz/tree/master/Quiz/L0146%20-%20LRUCache)
+- [L0207 - Course Schedule](https://github.com/kevin85112/Quiz/tree/master/Quiz/L0207%20-%20CourseSchedule)
+- [L0210 - Course Schedule II](https://github.com/kevin85112/Quiz/tree/master/Quiz/L0210%20-%20CourseScheduleII)
+- [L0986 - Interval List Intersections](https://github.com/kevin85112/Quiz/tree/master/Quiz/L0986%20-%20IntervalListIntersections)
+- [L1828 - Queries on Number of Points Inside a Circle](https://github.com/kevin85112/Quiz/tree/master/Quiz/L1828%20-%20QueriesOnNumberOfPointsInsideACircle)
