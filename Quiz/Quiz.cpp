@@ -11,6 +11,7 @@
 #include "IntervalListIntersections/IntervalListIntersections.hpp"
 #include "LRUCache/LRUCache.hpp"
 #include "CourseSchedule/CourseSchedule.hpp"
+#include "CourseScheduleII/CourseScheduleII.hpp"	
 
 int main()
 {
@@ -22,6 +23,7 @@ int main()
 		std::make_shared<IntervalListIntersections>(),
 		std::make_shared<LRUCache>(),
 		std::make_shared<CourseSchedule>(),
+		std::make_shared<CourseScheduleII>(),
 	};
 
 	std::cout << "---- Start ----" << std::endl;

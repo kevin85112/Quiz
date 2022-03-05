@@ -44,5 +44,8 @@
     <ClInclude Include="CourseSchedule\CourseSchedule.hpp">
       <Filter>來源檔案\core</Filter>
     </ClInclude>
+    <ClInclude Include="CourseScheduleII\CourseScheduleII.hpp">
+      <Filter>來源檔案\core</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
