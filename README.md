@@ -6,10 +6,11 @@
 
 ## LeetCode
 
-- [L0042 - Trapping Rain Water](https://github.com/kevin85112/Quiz/tree/master/Quiz/L0042%20-%20TrappingRainWater)
-- [L0056 - Merge Intervals](https://github.com/kevin85112/Quiz/tree/master/Quiz/L0056%20-%20MergeIntervals)
-- [L0146 - LRU Cache](https://github.com/kevin85112/Quiz/tree/master/Quiz/L0146%20-%20LRUCache)
-- [L0207 - Course Schedule](https://github.com/kevin85112/Quiz/tree/master/Quiz/L0207%20-%20CourseSchedule)
-- [L0210 - Course Schedule II](https://github.com/kevin85112/Quiz/tree/master/Quiz/L0210%20-%20CourseScheduleII)
-- [L0986 - Interval List Intersections](https://github.com/kevin85112/Quiz/tree/master/Quiz/L0986%20-%20IntervalListIntersections)
-- [L1828 - Queries on Number of Points Inside a Circle](https://github.com/kevin85112/Quiz/tree/master/Quiz/L1828%20-%20QueriesOnNumberOfPointsInsideACircle)
+- [L0001_TwoSum](https://github.com/kevin85112/Quiz/tree/master/Quiz/L0001_TwoSum)
+- [L0042_TrappingRainWater](https://github.com/kevin85112/Quiz/tree/master/Quiz/L0042_TrappingRainWater)
+- [L0056_MergeIntervals](https://github.com/kevin85112/Quiz/tree/master/Quiz/L0056_MergeIntervals)
+- [L0146_LRUCache](https://github.com/kevin85112/Quiz/tree/master/Quiz/L0146_LRUCache)
+- [L0207_CourseSchedule](https://github.com/kevin85112/Quiz/tree/master/Quiz/L0207_CourseSchedule)
+- [L0210_CourseScheduleII](https://github.com/kevin85112/Quiz/tree/master/Quiz/L0210_CourseScheduleII)
+- [L0986_IntervalListIntersections](https://github.com/kevin85112/Quiz/tree/master/Quiz/L0986_IntervalListIntersections)
+- [L1828_QueriesOnNumberOfPointsInsideACircle](https://github.com/kevin85112/Quiz/tree/master/Quiz/L1828_QueriesOnNumberOfPointsInsideACircle)
