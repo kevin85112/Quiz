@@ -10,6 +10,8 @@
 - [L0005_LongestPalindromicSubstring](https://github.com/kevin85112/Quiz/tree/master/Quiz/L0005_LongestPalindromicSubstring)
 - [L0006_ZigZagConversion](https://github.com/kevin85112/Quiz/tree/master/Quiz/L0006_ZigZagConversion)
 - [L0007_ReverseInteger](https://github.com/kevin85112/Quiz/tree/master/Quiz/L0007_ReverseInteger)
+- [L0008_StringToInteger](https://github.com/kevin85112/Quiz/tree/master/Quiz/L0008_StringToInteger)
+- [L0009_PalindromeNumber](https://github.com/kevin85112/Quiz/tree/master/Quiz/L0009_PalindromeNumber)
 - [L0042_TrappingRainWater](https://github.com/kevin85112/Quiz/tree/master/Quiz/L0042_TrappingRainWater)
 - [L0056_MergeIntervals](https://github.com/kevin85112/Quiz/tree/master/Quiz/L0056_MergeIntervals)
 - [L0146_LRUCache](https://github.com/kevin85112/Quiz/tree/master/Quiz/L0146_LRUCache)

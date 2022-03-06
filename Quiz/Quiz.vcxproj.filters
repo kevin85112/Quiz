@@ -71,5 +71,11 @@
     <ClInclude Include="L0007_ReverseInteger\L0007_ReverseInteger.hpp">
       <Filter>來源檔案\core</Filter>
     </ClInclude>
+    <ClInclude Include="L0008_StringToInteger\L0008_StringToInteger.hpp">
+      <Filter>來源檔案\core</Filter>
+    </ClInclude>
+    <ClInclude Include="L0009_PalindromeNumber\L0009_PalindromeNumber.hpp">
+      <Filter>來源檔案\core</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
