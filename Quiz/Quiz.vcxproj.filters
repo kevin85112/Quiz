@@ -50,5 +50,8 @@
     <ClInclude Include="L1828 - QueriesOnNumberOfPointsInsideACircle\QueriesOnNumberOfPointsInsideACircle.hpp">
       <Filter>來源檔案\core</Filter>
     </ClInclude>
+    <ClInclude Include="L0001 - TwoSum\TwoSum.hpp">
+      <Filter>來源檔案\core</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

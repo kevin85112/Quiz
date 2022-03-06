@@ -151,6 +151,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="FlippingTheMatrix\FlippingTheMatrix.hpp" />
+    <ClInclude Include="L0001 - TwoSum\TwoSum.hpp" />
     <ClInclude Include="L0042 - TrappingRainWater\TrappingRainWater.hpp" />
     <ClInclude Include="L0056 - MergeIntervals\MergeIntervals.hpp" />
     <ClInclude Include="L0146 - LRUCache\LRUCache.hpp" />

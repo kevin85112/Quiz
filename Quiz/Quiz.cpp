@@ -6,6 +6,7 @@
 
 #include "TestEngine.hpp"
 #include "FlippingTheMatrix/FlippingTheMatrix.hpp"
+#include "L0001 - TwoSum/TwoSum.hpp"
 #include "L0042 - TrappingRainWater/TrappingRainWater.hpp"
 #include "L0056 - MergeIntervals/MergeIntervals.hpp"
 #include "L0146 - LRUCache/LRUCache.hpp"
@@ -26,6 +27,7 @@ int main()
 		std::make_shared<CourseSchedule>(),
 		std::make_shared<CourseScheduleII>(),
 		std::make_shared<MergeIntervals>(),
+		std::make_shared<TwoSum>()
 	};
 
 	std::cout << "---- Start ----" << std::endl;
