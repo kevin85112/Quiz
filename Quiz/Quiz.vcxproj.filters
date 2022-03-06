@@ -68,5 +68,8 @@
     <ClInclude Include="L0006_ZigZagConversion\L0006_ZigZagConversion.hpp">
       <Filter>來源檔案\core</Filter>
     </ClInclude>
+    <ClInclude Include="L0007_ReverseInteger\L0007_ReverseInteger.hpp">
+      <Filter>來源檔案\core</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
