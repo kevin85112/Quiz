@@ -2,10 +2,7 @@
 
 ## Quiz list
 
-- [Flipping the Matrix](https://github.com/kevin85112/Quiz/tree/master/Quiz/FlippingTheMatrix) ([source](https://www.hackerrank.com/challenges/flipping-the-matrix/problem))
-
-## LeetCode
-
+- [FlippingTheMatrix](https://github.com/kevin85112/Quiz/tree/master/Quiz/FlippingTheMatrix)
 - [L0001_TwoSum](https://github.com/kevin85112/Quiz/tree/master/Quiz/L0001_TwoSum)
 - [L0002_AddTwoNumbers](https://github.com/kevin85112/Quiz/tree/master/Quiz/L0002_AddTwoNumbers)
 - [L0003_LongestSubstringWithoutRepeatingCharacters](https://github.com/kevin85112/Quiz/tree/master/Quiz/L0003_LongestSubstringWithoutRepeatingCharacters)
