@@ -151,14 +151,14 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="FlippingTheMatrix\FlippingTheMatrix.hpp" />
-    <ClInclude Include="L0001 - TwoSum\TwoSum.hpp" />
-    <ClInclude Include="L0042 - TrappingRainWater\TrappingRainWater.hpp" />
-    <ClInclude Include="L0056 - MergeIntervals\MergeIntervals.hpp" />
-    <ClInclude Include="L0146 - LRUCache\LRUCache.hpp" />
-    <ClInclude Include="L0207 - CourseSchedule\CourseSchedule.hpp" />
-    <ClInclude Include="L0210 - CourseScheduleII\CourseScheduleII.hpp" />
-    <ClInclude Include="L0986 - IntervalListIntersections\IntervalListIntersections.hpp" />
-    <ClInclude Include="L1828 - QueriesOnNumberOfPointsInsideACircle\QueriesOnNumberOfPointsInsideACircle.hpp" />
+    <ClInclude Include="L0001_TwoSum\L0001_TwoSum.hpp" />
+    <ClInclude Include="L0042_TrappingRainWater\L0042_TrappingRainWater.hpp" />
+    <ClInclude Include="L0056_MergeIntervals\L0056_MergeIntervals.hpp" />
+    <ClInclude Include="L0146_LRUCache\L0146_LRUCache.hpp" />
+    <ClInclude Include="L0207_CourseSchedule\L0207_CourseSchedule.hpp" />
+    <ClInclude Include="L0210_CourseScheduleII\L0210_CourseScheduleII.hpp" />
+    <ClInclude Include="L0986_IntervalListIntersections\L0986_IntervalListIntersections.hpp" />
+    <ClInclude Include="L1828_QueriesOnNumberOfPointsInsideACircle\L1828_QueriesOnNumberOfPointsInsideACircle.hpp" />
     <ClInclude Include="TestEngine.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

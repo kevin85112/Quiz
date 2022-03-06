@@ -4,7 +4,7 @@
 #include <deque>
 
 // source url: https://leetcode.com/problems/merge-intervals/
-class MergeIntervals : public ITestable
+class L0056_MergeIntervals : public ITestable
 {
 private:
 	// bad performance

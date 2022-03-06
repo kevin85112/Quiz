@@ -6,28 +6,28 @@
 
 #include "TestEngine.hpp"
 #include "FlippingTheMatrix/FlippingTheMatrix.hpp"
-#include "L0001 - TwoSum/TwoSum.hpp"
-#include "L0042 - TrappingRainWater/TrappingRainWater.hpp"
-#include "L0056 - MergeIntervals/MergeIntervals.hpp"
-#include "L0146 - LRUCache/LRUCache.hpp"
-#include "L0207 - CourseSchedule/CourseSchedule.hpp"
-#include "L0210 - CourseScheduleII/CourseScheduleII.hpp"
-#include "L0986 - IntervalListIntersections/IntervalListIntersections.hpp"
-#include "L1828 - QueriesOnNumberOfPointsInsideACircle/QueriesOnNumberOfPointsInsideACircle.hpp"
+#include "L0001_TwoSum/L0001_TwoSum.hpp"
+#include "L0042_TrappingRainWater/L0042_TrappingRainWater.hpp"
+#include "L0056_MergeIntervals/L0056_MergeIntervals.hpp"
+#include "L0146_LRUCache/L0146_LRUCache.hpp"
+#include "L0207_CourseSchedule/L0207_CourseSchedule.hpp"
+#include "L0210_CourseScheduleII/L0210_CourseScheduleII.hpp"
+#include "L0986_IntervalListIntersections/L0986_IntervalListIntersections.hpp"
+#include "L1828_QueriesOnNumberOfPointsInsideACircle/L1828_QueriesOnNumberOfPointsInsideACircle.hpp"
 
 int main()
 {
 	std::vector<std::shared_ptr<ITestable>> testList
 	{
 		std::make_shared<FlippingTheMatrix>(),
-		std::make_shared<QueriesOnNumberOfPointsInsideACircle>(),
-		std::make_shared<TrappingRainWater>(),
-		std::make_shared<IntervalListIntersections>(),
-		std::make_shared<LRUCache>(),
-		std::make_shared<CourseSchedule>(),
-		std::make_shared<CourseScheduleII>(),
-		std::make_shared<MergeIntervals>(),
-		std::make_shared<TwoSum>()
+		std::make_shared<L0001_TwoSum>(),
+		std::make_shared<L0042_TrappingRainWater>(),
+		std::make_shared<L0056_MergeIntervals>(),
+		std::make_shared<L0146_LRUCache>(),
+		std::make_shared<L0207_CourseSchedule>(),
+		std::make_shared<L0210_CourseScheduleII>(),
+		std::make_shared<L0986_IntervalListIntersections>(),
+		std::make_shared<L1828_QueriesOnNumberOfPointsInsideACircle>()
 	};
 
 	std::cout << "---- Start ----" << std::endl;

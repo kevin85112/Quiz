@@ -1,7 +1,7 @@
 #include "../TestEngine.hpp"
 
 // source url: https://leetcode.com/problems/queries-on-number-of-points-inside-a-circle/
-class QueriesOnNumberOfPointsInsideACircle : public ITestable
+class L1828_QueriesOnNumberOfPointsInsideACircle : public ITestable
 {
 private:
 	static std::vector<int> countPoints_0(std::vector<std::vector<int>> points, std::vector<std::vector<int>> queries)

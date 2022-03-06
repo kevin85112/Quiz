@@ -4,7 +4,7 @@
 #include <unordered_map>
 
 // source url: https://leetcode.com/problems/course-schedule-ii/
-class CourseScheduleII : public ITestable
+class L0210_CourseScheduleII : public ITestable
 {
 private:
 	// Basic.

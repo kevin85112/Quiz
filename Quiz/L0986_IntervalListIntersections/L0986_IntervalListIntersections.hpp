@@ -2,7 +2,7 @@
 #include <algorithm>
 
 // source url: https://leetcode.com/problems/interval-list-intersections/submissions/
-class IntervalListIntersections : public ITestable
+class L0986_IntervalListIntersections : public ITestable
 {
 private:
 	static std::vector<std::vector<int>> intervalIntersection

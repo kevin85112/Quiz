@@ -4,7 +4,7 @@
 #include <unordered_map>
 
 // source url: https://leetcode.com/problems/course-schedule/
-class CourseSchedule : public ITestable
+class L0207_CourseSchedule : public ITestable
 {
 private:
 	// Intuitive but not performing well.

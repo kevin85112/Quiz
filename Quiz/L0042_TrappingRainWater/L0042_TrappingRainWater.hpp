@@ -4,7 +4,7 @@
 #include <stack>
 
 // source url: https://leetcode.com/problems/trapping-rain-water/
-class TrappingRainWater : public ITestable
+class L0042_TrappingRainWater : public ITestable
 {
 private:
 	// Time Limit Exceeded.

@@ -7,7 +7,7 @@
 #include <unordered_map>
 
 // source url: https://leetcode.com/problems/lru-cache/
-class LRUCache : public ITestable
+class L0146_LRUCache : public ITestable
 {
 private:
 	class ILRUCache

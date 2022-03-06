@@ -1,6 +1,6 @@
 #include "../TestEngine.hpp"
 
-class TwoSum : public ITestable
+class L0001_TwoSum : public ITestable
 {
 private:
 	template <class T1, class T2>
