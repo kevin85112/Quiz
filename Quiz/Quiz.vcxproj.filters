@@ -53,5 +53,8 @@
     <ClInclude Include="L1828_QueriesOnNumberOfPointsInsideACircle\L1828_QueriesOnNumberOfPointsInsideACircle.hpp">
       <Filter>來源檔案\core</Filter>
     </ClInclude>
+    <ClInclude Include="L0002_AddTwoNumbers\L0002_AddTwoNumbers.hpp">
+      <Filter>來源檔案\core</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
