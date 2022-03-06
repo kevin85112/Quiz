@@ -172,6 +172,7 @@
     <ClInclude Include="L0007_ReverseInteger\L0007_ReverseInteger.hpp" />
     <ClInclude Include="L0008_StringToInteger\L0008_StringToInteger.hpp" />
     <ClInclude Include="L0009_PalindromeNumber\L0009_PalindromeNumber.hpp" />
+    <ClInclude Include="L0010_RegularExpressionMatching\L0010_RegularExpressionMatching.hpp" />
     <ClInclude Include="L0042_TrappingRainWater\L0042_TrappingRainWater.hpp" />
     <ClInclude Include="L0056_MergeIntervals\L0056_MergeIntervals.hpp" />
     <ClInclude Include="L0146_LRUCache\L0146_LRUCache.hpp" />

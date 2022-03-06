@@ -16,6 +16,7 @@
 #include "L0007_ReverseInteger/L0007_ReverseInteger.hpp"
 #include "L0008_StringToInteger/L0008_StringToInteger.hpp"
 #include "L0009_PalindromeNumber/L0009_PalindromeNumber.hpp"
+#include "L0010_RegularExpressionMatching/L0010_RegularExpressionMatching.hpp"
 #include "L0042_TrappingRainWater/L0042_TrappingRainWater.hpp"
 #include "L0056_MergeIntervals/L0056_MergeIntervals.hpp"
 #include "L0146_LRUCache/L0146_LRUCache.hpp"
@@ -40,6 +41,7 @@ int main()
 		std::make_shared<L0007_ReverseInteger>(),
 		std::make_shared<L0008_StringToInteger>(),
 		std::make_shared<L0009_PalindromeNumber>(),
+		std::make_shared<L0010_RegularExpressionMatching>(),
 		std::make_shared<L0042_TrappingRainWater>(),
 		std::make_shared<L0056_MergeIntervals>(),
 		std::make_shared<L0146_LRUCache>(),

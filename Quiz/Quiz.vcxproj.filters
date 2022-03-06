@@ -77,5 +77,8 @@
     <ClInclude Include="L0009_PalindromeNumber\L0009_PalindromeNumber.hpp">
       <Filter>來源檔案\core</Filter>
     </ClInclude>
+    <ClInclude Include="L0010_RegularExpressionMatching\L0010_RegularExpressionMatching.hpp">
+      <Filter>來源檔案\core</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
