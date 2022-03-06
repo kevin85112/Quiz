@@ -7,6 +7,9 @@
 ## LeetCode
 
 - [L0001_TwoSum](https://github.com/kevin85112/Quiz/tree/master/Quiz/L0001_TwoSum)
+- [L0002_AddTwoNumbers](https://github.com/kevin85112/Quiz/tree/master/Quiz/L0002_AddTwoNumbers)
+- [L0003_LongestSubstringWithoutRepeatingCharacters](https://github.com/kevin85112/Quiz/tree/master/Quiz/L0003_LongestSubstringWithoutRepeatingCharacters)
+- [L0004_MedianOfTwoSortedArrays](https://github.com/kevin85112/Quiz/tree/master/Quiz/L0004_MedianOfTwoSortedArrays)
 - [L0042_TrappingRainWater](https://github.com/kevin85112/Quiz/tree/master/Quiz/L0042_TrappingRainWater)
 - [L0056_MergeIntervals](https://github.com/kevin85112/Quiz/tree/master/Quiz/L0056_MergeIntervals)
 - [L0146_LRUCache](https://github.com/kevin85112/Quiz/tree/master/Quiz/L0146_LRUCache)
