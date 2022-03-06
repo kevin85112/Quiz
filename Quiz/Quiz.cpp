@@ -57,7 +57,8 @@ int main()
 		ITestable& test = *testList[index];
 		std::string testName = typeid(test).name();
 		bool isSuccess = test.Test(&errorMessageList[index]);
-		std::cout << "- Test " << index << " \"" << std::left << std::setw(maxNameLength) << testName << "\": " << (isSuccess ? "Pass" : "Fail") << std::endl;
+		std::string resultText = (isSuccess ? "Pass" : "Fail");
+		std::cout << "- Test " << std::right << std::setw(std::to_string(testList.size()).size()) << index << ": [" << resultText << "] " << std::left << std::setw(maxNameLength) << testName << std::endl;
 	}
 
 	for (size_t index = 0; index < testList.size(); index++)
