@@ -77,25 +77,22 @@ public:
 
 		int numCourses;
 		std::vector<std::vector<int>> prerequisites;
-		std::vector<int> answer;
+		std::vector<std::vector<int>> answerList;
 
 		numCourses = 2;
 		prerequisites = { { 1, 0 } };
-		answer = { 0, 1 };
-		checker.CheckAnswer(numCourses, prerequisites, answer);
+		answerList = { { 0, 1 } };
+		checker.CheckAnswer(numCourses, prerequisites, answerList);
 
 		numCourses = 4;
 		prerequisites = { { 1, 0 }, { 2, 0 }, { 3, 1 }, { 3, 2 } };
-		answer = { 0, 2, 1, 3 };
-		checker.CheckAnswer(numCourses, prerequisites, answer);
-		// TODO: accept multiple answer.
-		/*answer = { 0, 1, 2, 3 };
-		checker.CheckAnswer(numCourses, prerequisites, answer);*/
+		answerList = { { 0, 2, 1, 3 }, { 0, 1, 2, 3 } };
+		checker.CheckAnswer(numCourses, prerequisites, answerList);
 
 		numCourses = 1;
 		prerequisites = {};
-		answer = { 0 };
-		checker.CheckAnswer(numCourses, prerequisites, answer);
+		answerList = { { 0 } };
+		checker.CheckAnswer(numCourses, prerequisites, answerList);
 
 		std::string errorMessage = checker.GetErrorMessage();
 		if (pErrorMessage != nullptr)

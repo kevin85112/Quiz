@@ -54,21 +54,31 @@ protected:
 	}
 
 public:
-	std::vector<OutputType> CheckAnswer(const InputType&... input, OutputType answer)
+	std::vector<OutputType> CheckAnswer(const InputType&... input, std::vector<OutputType> answerList)
 	{
 		std::vector<OutputType> outputList;
 		std::vector<std::pair<bool, std::shared_ptr<std::string>>> messages;
 		for (const auto& func : functionList)
 		{
 			auto output = func(input...);
-			bool isSuccess = checkAnswer(output, answer);
+			bool isSuccess = false;
+			size_t finalAnswerIndex = 0;
+			for (size_t answerIndex = 0; answerIndex < answerList.size(); answerIndex++)
+			{
+				if (checkAnswer(output, answerList[answerIndex]))
+				{
+					isSuccess = true;
+					finalAnswerIndex = answerIndex;
+					break;
+				}
+			}
 
 			std::string message;
 			{
 				std::stringstream messageStream;
 				messageStream << "input: \n" << getInputString(input...)
 					<< "\noutput: \n" << getOutputString(output) << "\nanswer: \n"
-					<< getOutputString(answer) << std::flush;
+					<< getOutputString(answerList[finalAnswerIndex]) << std::flush;
 				message = messageStream.str();
 			}
 			messages.push_back({ isSuccess, std::make_shared<std::string>(message) });
@@ -76,6 +86,13 @@ public:
 		}
 		messageList.push_back(messages);
 		return outputList;
+	}
+
+	std::vector<OutputType> CheckAnswer(const InputType&... input, OutputType answer)
+	{
+		std::vector<OutputType> answerList;
+		answerList.push_back(std::move(answer));
+		return CheckAnswer(input..., answerList);
 	}
 
 	std::string GetSuccessMessage()
@@ -88,7 +105,7 @@ public:
 
 	std::string GetErrorMessage()
 	{
-		return GetMessage([](bool isSuccess) 
+		return GetMessage([](bool isSuccess)
 			{
 				return isSuccess == false;
 			});
