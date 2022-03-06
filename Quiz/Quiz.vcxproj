@@ -156,6 +156,7 @@
     <ClInclude Include="L0003_LongestSubstringWithoutRepeatingCharacters\L0003_LongestSubstringWithoutRepeatingCharacters.hpp" />
     <ClInclude Include="L0004_MedianOfTwoSortedArrays\L0004_MedianOfTwoSortedArrays.hpp" />
     <ClInclude Include="L0005_LongestPalindromicSubstring\L0005_LongestPalindromicSubstring.hpp" />
+    <ClInclude Include="L0006_ZigZagConversion\L0006_ZigZagConversion.hpp" />
     <ClInclude Include="L0042_TrappingRainWater\L0042_TrappingRainWater.hpp" />
     <ClInclude Include="L0056_MergeIntervals\L0056_MergeIntervals.hpp" />
     <ClInclude Include="L0146_LRUCache\L0146_LRUCache.hpp" />
