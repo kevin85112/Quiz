@@ -278,11 +278,6 @@ private:
 	}
 
 public:
-	std::string GetName() const
-	{
-		return "Two Sum";
-	}
-
 	bool Test(std::string* pErrorMessage = nullptr)
 	{
 		ProblemChecker<std::vector<int>, std::vector<int>&, int> checker(
@@ -319,11 +314,6 @@ public:
 			*pErrorMessage = errorMessage;
 		}
 		bool isSuccess = errorMessage.empty();
-		if (isSuccess)
-		{
-			std::string message = checker.GetSuccessMessage();
-			std::cout << message;
-		}
 		return isSuccess;
 	}
 };

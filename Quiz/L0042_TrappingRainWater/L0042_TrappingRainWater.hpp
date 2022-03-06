@@ -183,11 +183,6 @@ private:
 	}
 
 public:
-	std::string GetName() const
-	{
-		return "Trapping Rain Water";
-	}
-
 	bool Test(std::string* pErrorMessage = nullptr)
 	{
 		ProblemChecker<int, std::vector<int>> checker(
@@ -220,11 +215,6 @@ public:
 			*pErrorMessage = errorMessage;
 		}
 		bool isSuccess = errorMessage.empty();
-		if (isSuccess)
-		{
-			std::string message = checker.GetSuccessMessage();
-			std::cout << message;
-		}
 		return isSuccess;
 	}
 };

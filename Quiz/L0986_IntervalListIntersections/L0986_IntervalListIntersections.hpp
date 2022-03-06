@@ -44,11 +44,6 @@ private:
 	}
 
 public:
-	std::string GetName() const
-	{
-		return "IntervalListIntersections";
-	}
-
 	bool Test(std::string* pErrorMessage = nullptr)
 	{
 		ProblemChecker<std::vector<std::vector<int>>,
@@ -100,11 +95,6 @@ public:
 			*pErrorMessage = errorMessage;
 		}
 		bool isSuccess = errorMessage.empty();
-		if (isSuccess)
-		{
-			std::string message = checker.GetSuccessMessage();
-			std::cout << message;
-		}
 		return isSuccess;
 	}
 };

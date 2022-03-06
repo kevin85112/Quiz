@@ -11,7 +11,6 @@ class ITestable
 {
 public:
 	virtual ~ITestable() {}
-	virtual std::string GetName() const = 0;
 	virtual bool Test(std::string* pErrorMessage = nullptr) = 0;
 };
 

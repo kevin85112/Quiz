@@ -1,4 +1,5 @@
 ﻿#include <iostream>
+#include <iomanip>
 #include <vector>
 #include <string>
 #include <functional>
@@ -17,6 +18,8 @@
 
 int main()
 {
+	std::cout << "---- Start ----" << std::endl;
+
 	std::vector<std::shared_ptr<ITestable>> testList
 	{
 		std::make_shared<FlippingTheMatrix>(),
@@ -30,20 +33,38 @@ int main()
 		std::make_shared<L1828_QueriesOnNumberOfPointsInsideACircle>()
 	};
 
-	std::cout << "---- Start ----" << std::endl;
+	std::sort(testList.begin(), testList.end(), [](std::shared_ptr<ITestable> pTest1, std::shared_ptr<ITestable> pTest2) -> bool
+		{
+			std::string testName1 = typeid(*pTest1).name();
+			std::string testName2 = typeid(*pTest2).name();
+			return testName1.compare(testName2) < 0;
+		});
+
+	size_t maxNameLength = 0;
+	for (std::shared_ptr<ITestable> pTest : testList)
+	{
+		std::string testName = typeid(*pTest).name();
+		maxNameLength = std::max(maxNameLength, testName.size());
+	}
+
+	std::vector<std::string> errorMessageList(testList.size());
 	for (size_t index = 0; index < testList.size(); index++)
 	{
 		ITestable& test = *testList[index];
-		std::cout << "\n---- Test " << index << " \"" << test.GetName() << "\" ----" << std::endl;
-		std::string errorMessage;
-		bool isSuccess = test.Test(&errorMessage);
+		std::string testName = typeid(test).name();
+		bool isSuccess = test.Test(&errorMessageList[index]);
+		std::cout << "- Test " << index << " \"" << std::left << std::setw(maxNameLength) << testName << "\": " << (isSuccess ? "Pass" : "Fail") << std::endl;
+	}
+
+	for (size_t index = 0; index < testList.size(); index++)
+	{
+		const std::string& errorMessage = errorMessageList[index];
 		if (!errorMessage.empty())
 		{
-			std::cout << "Error message:\n{\n" << errorMessage << "}" << std::endl;
+			std::string testName = typeid(*testList[index]).name();
+			std::cout << "\n- Test " << index << " \"" << testName << "\" error message:\n" << errorMessage << std::endl;
 		}
-		std::cout << "\nResult: " << (isSuccess ? "True" : "False") << std::endl;
-		std::cout << "---- End test " << index << " \"" << test.GetName() << "\" ----" << std::endl;
 	}
-	std::cout << "\n---- End ----" << std::endl;
-	std::cin;
+
+	std::cout << "---- End ----" << std::endl;
 }

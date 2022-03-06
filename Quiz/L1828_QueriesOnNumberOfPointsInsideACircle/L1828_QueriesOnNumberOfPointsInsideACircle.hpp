@@ -34,11 +34,6 @@ private:
 	}
 
 public:
-	std::string GetName() const
-	{
-		return "Queries on Number of Points Inside a Circle";
-	}
-
 	bool Test(std::string* pErrorMessage = nullptr)
 	{
 		ProblemChecker<std::vector<int>, std::vector<std::vector<int>>, std::vector<std::vector<int>>> checker(
@@ -90,11 +85,6 @@ public:
 			*pErrorMessage = errorMessage;
 		}
 		bool isSuccess = errorMessage.empty();
-		if (isSuccess)
-		{
-			std::string message = checker.GetSuccessMessage();
-			std::cout << message;
-		}
 		return isSuccess;
 	}
 };

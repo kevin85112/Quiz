@@ -181,11 +181,6 @@ private:
 	}
 
 public:
-	std::string GetName() const
-	{
-		return "LRUCache";
-	}
-
 	bool Test(std::string* pErrorMessage = nullptr)
 	{
 		ProblemChecker<
@@ -255,11 +250,6 @@ public:
 			*pErrorMessage = errorMessage;
 		}
 		bool isSuccess = errorMessage.empty();
-		if (isSuccess)
-		{
-			std::string message = checker.GetSuccessMessage();
-			std::cout << message;
-		}
 		return isSuccess;
 	}
 };
