@@ -9,6 +9,7 @@
 #include "FlippingTheMatrix/FlippingTheMatrix.hpp"
 #include "L0001_TwoSum/L0001_TwoSum.hpp"
 #include "L0002_AddTwoNumbers/L0002_AddTwoNumbers.hpp"
+#include "L0003_LongestSubstringWithoutRepeatingCharacters/L0003_LongestSubstringWithoutRepeatingCharacters.hpp"
 #include "L0042_TrappingRainWater/L0042_TrappingRainWater.hpp"
 #include "L0056_MergeIntervals/L0056_MergeIntervals.hpp"
 #include "L0146_LRUCache/L0146_LRUCache.hpp"
@@ -26,6 +27,7 @@ int main()
 		std::make_shared<FlippingTheMatrix>(),
 		std::make_shared<L0001_TwoSum>(),
 		std::make_shared<L0002_AddTwoNumbers>(),
+		std::make_shared<L0003_LongestSubstringWithoutRepeatingCharacters>(),
 		std::make_shared<L0042_TrappingRainWater>(),
 		std::make_shared<L0056_MergeIntervals>(),
 		std::make_shared<L0146_LRUCache>(),

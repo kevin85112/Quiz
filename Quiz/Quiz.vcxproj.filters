@@ -56,5 +56,8 @@
     <ClInclude Include="L0002_AddTwoNumbers\L0002_AddTwoNumbers.hpp">
       <Filter>來源檔案\core</Filter>
     </ClInclude>
+    <ClInclude Include="L0003_LongestSubstringWithoutRepeatingCharacters\L0003_LongestSubstringWithoutRepeatingCharacters.hpp">
+      <Filter>來源檔案\core</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
