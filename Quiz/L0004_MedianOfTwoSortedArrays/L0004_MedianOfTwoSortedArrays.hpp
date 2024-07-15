@@ -6,9 +6,9 @@ private:
 	static double findMedianSortedArrays_0(std::vector<int>& nums1, std::vector<int>& nums2)
 	{
 		auto isOdd = [](int x)
-		{
-			return x & 1;
-		};
+			{
+				return x & 1;
+			};
 
 		std::vector<int>* pM = &nums1;
 		std::vector<int>* pN = &nums2;
@@ -107,6 +107,69 @@ private:
 		return (nums1[nums1.size() / 2 - 1] + nums1[nums1.size() / 2]) / 2.0;
 	}
 
+	static double findMedianSortedArrays(std::vector<int>& nums) {
+		int targetIdx = (nums.size() - 1) / 2;
+		if ((nums.size() % 2) == 0)
+		{
+			return (nums[targetIdx] + nums[targetIdx + 1]) / 2.0;
+		}
+		else {
+			return nums[targetIdx];
+		}
+	}
+
+	static void gotoNext(const std::vector<int>& nums1, const std::vector<int>& nums2,
+		std::vector<int>::iterator& it1, std::vector<int>::iterator& it2) {
+		if (*it1 < *it2) {
+			it1++;
+			if (it1 == nums1.end()) {
+				it1 = it2 + 1;
+			}
+			if (it1 == nums1.end() || it1 == nums2.end()) {
+				it1--;
+			}
+		}
+		else {
+			it2++;
+			if (it2 == nums2.end()) {
+				it2 = it1 + 1;
+			}
+			if (it2 == nums1.end() || it2 == nums2.end()) {
+				it2--;
+			}
+		}
+	}
+
+	static double findMedianSortedArrays_2(std::vector<int>& nums1, std::vector<int>& nums2) {
+		if (nums1.empty()) {
+			return findMedianSortedArrays(nums2);
+		}
+		else if (nums2.empty()) {
+			return findMedianSortedArrays(nums1);
+		}
+		int targetIdx = (nums1.size() + nums2.size() - 1) / 2;
+		std::vector<int>::iterator it1 = nums1.begin();
+		std::vector<int>::iterator it2 = nums2.begin();
+		for (int i = 0; i < targetIdx; i++) {
+			gotoNext(nums1, nums2, it1, it2);
+		}
+
+		if ((nums1.size() + nums2.size()) % 2 != 0) {
+			return std::min(*it1, *it2);
+		}
+		else {
+			if (*it1 == *it2) {
+				return *it1;
+			}
+			else {
+				double v1 = std::min(*it1, *it2);
+				gotoNext(nums1, nums2, it1, it2);
+				double v2 = std::min(*it1, *it2);
+				return (v1 + v2) / 2.0;
+			}
+		}
+	}
+
 public:
 	bool Test(std::string* pErrorMessage = nullptr)
 	{
@@ -122,15 +185,24 @@ public:
 			{
 				return std::to_string(output);
 			},
-				[](double output, double answer)
+			[](double output, double answer)
 			{
 				return std::abs(output - answer) < DBL_EPSILON;
 			});
-		checker.AddFunction(findMedianSortedArrays_0);
-		checker.AddFunction(findMedianSortedArrays_1);
+		//checker.AddFunction(findMedianSortedArrays_0);
+		//checker.AddFunction(findMedianSortedArrays_1);
+		checker.AddFunction(findMedianSortedArrays_2);
 
 		std::vector<int> nums1;
 		std::vector<int> nums2;
+
+		nums1.assign({ 100000 });
+		nums2.assign({ 100001 });
+		checker.CheckAnswer(nums1, nums2, 0.0);
+
+		nums1.assign({ 0,0,0,0,0 });
+		nums2.assign({ -1,0,0,0,0,0,1 });
+		checker.CheckAnswer(nums1, nums2, 0.0);
 
 		nums1.assign({ 3 });
 		nums2.assign({ 1, 2, 4 });
